@@ -1,0 +1,435 @@
+body{
+    background-color: #43425D;
+}
+.container-fluid1{
+    display: flex;
+    padding: 5px;
+}
+.side-bar{
+    height: 800px;
+    width: 15%;
+    background-color: #43425D;
+}
+.main-page{
+    width: 85%;
+    background-color: #F5F7FB;
+}
+.nav-space{
+    background-color: #43425D;
+}
+.main-page .navBar{
+    height: 70px;
+     border-bottom: 1px solid black ;
+     position: sticky;
+     background-color: #FFFFFF;
+     /* border: 1px solid black; */
+     border-radius: 10px 0px 0px 0px;
+     display: flex;
+}
+.main-page .nav-space .navBar .notification-button .bell{
+    background-color: rgb(112, 247, 112);
+    border: 4px solid rgb(74, 238, 74);
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    margin-left: 290px;
+    margin-top: -22px;
+    position: relative;
+}
+.main-page .navBar .menu-button{
+    width: 2%;
+}
+.main-page .navBar .search-button{
+    width: 62%;
+}
+.main-page .navBar .notification-button{
+    width: 25%;
+    padding-top: 20px;
+}
+.notification{
+    margin-top: 20px;
+    display: none;
+}
+.main-page .navBar .profile-button{
+    padding-top: 20px;
+    margin-right: 20px;
+    width: 16%;
+}
+.section1{
+    height: 60px;
+    margin-top: 10px;
+    overflow-x: auto;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section1 .button1{
+    height: 30px;
+    background-color:#6763E3;
+    margin-right: 30px;
+}
+
+.menu-button{
+    padding: 20px;
+}
+.search-button{
+    padding: 20px;
+}
+.nav-button{
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.notification-button{
+    text-align: end;
+    margin-right: 10px;
+    z-index: 1000;
+}
+/* .profile-button{
+    text-align: end; 
+} */
+.profile-button a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: end;
+    z-index: 1000;
+}
+.profile-button button p{
+    display: inline-block;
+}
+button{
+    background-color: white;
+    border: none;
+}
+input[type=text],select{
+    width: 80%;
+    border: none;
+    display: inline-block;
+}
+.section2{
+    margin: 0px 20px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.admin-details{
+    position: static;
+}
+.section2 .box1{
+    padding-top: 50px;
+    width: 34%;
+    background-color: white;
+    height: 400px;
+    overflow-x: hidden;
+    margin-right: 10px;
+}
+.section2 .box2{
+    padding-top:50px ;
+    width: 35%;
+    background-color: white;
+    height: 400px;
+    overflow-x: hidden;
+    margin-right: 10px;
+
+}
+.section2 .box3{
+    width: 29%;
+    background-color: white;
+    overflow-x: hidden;
+}
+.section2 .box4{
+margin-top: -120px;
+width: 70%;
+overflow-x: hidden;
+}
+.section2 .box5{
+    margin-top: 10px;
+    width: 29%;
+    background-color: white;
+    overflow-x: hidden;
+}
+.graph{
+    max-width: 400px!important;
+    max-height: 300px!important;
+    
+}
+.table{
+    background-color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.information{
+    background-color: #FFFFFF;
+}
+.profile-info{
+    text-align: center;
+    z-index: -1!important;
+}
+.admin-detail{
+    background-color: #FFFFFF;
+}
+.employee-info{
+    height: 200px;
+}
+#imageUpload
+{
+    display: none;
+}
+
+#profileImage
+{
+    cursor: pointer;
+}
+#tableWide{
+    width: 400px; 
+    text-align: left;
+}
+#profile-container{
+    max-width: 80px;
+    max-height: 80px;
+    overflow: hidden;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+#profile-cintainer img{
+    max-width: 80px;
+    max-height: 80px;
+}
+.details{
+    margin-top: 10px;
+}
+.customer-info{
+    overflow-x: auto;
+}
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+p{
+    color: rgba(0, 0, 0, 0.397);
+    font-size: 14px;
+}
+.notification h6{
+    font-size: 14px;
+}
+.notification .p{
+    font-size: 8px;
+}
+.customer-info table{
+    border: none;
+}
+
+.customer-info tr{
+    border: none;
+}
+.customer-info td{
+    border: none;
+}
+.customer-info td h6{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+.customer-info td p{
+    text-align: left;
+    font-size: 10px;
+}
+.info{
+    text-align: left!important;
+    margin: 10px 0px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.404);
+}
+.youtube-video{
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+.youtube-video .responsive-iframe{
+    top: 0;
+    left: 10;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.show-more{
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: none;
+    z-index: 1000!important;
+}
+.logo{
+    padding: 10px 35px;
+}
+.side-bar-option .bttn a{
+    padding: 10px 0px 0px 10px;
+    color: #FFFFFF;
+}
+.side-bar-optionvh6{
+    display: inline-block;
+    font-size: 16px;
+}
+.side-bar-option .bttn{
+    padding: 10px 10px;
+}
+.side-bar-option .bttn:hover{
+    background-color: #44419f;
+}
+
+.side-bar-option .bttn .inbox_red{
+    
+    font-size: 7px;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+    padding: 1px 8px;
+    background-color: red;
+
+    margin: 10px;
+}
+
+
+@media only screen and (max-width:1200px){
+    .main-page .navBar .profile-button{
+        width: 20%;
+        padding: 10%; 
+    }
+    .main-page .navBar .search-button{
+        width: 50%;
+         padding: 10px; 
+    }
+    .main-page .navBar .notification-button{
+        width: 10%;
+        padding: 10px; 
+    } 
+}
+@media only screen and (max-width:800px){
+    .section2 .box1{
+        width: 58%;
+    }
+    .section2 .box3{
+        margin-top: -400px;
+    }
+    .section2 .box2{
+        width: 58%;
+    }
+    .graph{
+        max-width: 300px!important;
+        max-height: 300px!important;
+    }
+    .section2 .box4{
+        width: 58%;
+    }
+    .section2 .box3{
+        width: 40px;
+        height: 100%;
+    }
+    .section2 .box5{
+        margin-top: -170px;
+        width: 40%;
+    }
+    .main-page .navBar .profile-button{
+        width: 35%;
+        padding: 10px;
+    }
+    .main-page .navBar .search-button{
+        width: 30%;
+        padding: 10px;
+    }
+    .main-page .navBar .notification-button{
+        width: 20%;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:530px)
+{
+    .section2 :nth-child(1){order: 2;}
+    .section2 :nth-child(2){order: 3;}
+    .section2 :nth-child(3){order: 1;}
+    .section2 :nth-child(4){order: 4;}
+    .section2 :nth-child(5){order: 5;}
+    .section2 .box1{
+        width: 100%;
+    }
+ /* .sectio */
+    .section2{
+        flex-direction:column;
+    }
+    .section2 .box1{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .section2 .box2{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .graph{
+        
+        max-width: 300px!important;
+        max-height: 300px!important;
+        
+    }
+    .section2 .box4{
+        margin-top: 20px;
+        width: 100%;
+
+    }
+    .section2 .box3{
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .section2 .box5{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .side-bar{
+        width: 75%;
+        display: none;
+    }
+    
+    .main-page .navBar .profile-button{
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .main-page .navBar .search-button{
+        width: 20%;
+        padding: 10px;
+    }
+    .main-page .navBar .notification-button{
+        width: 30%;
+        padding-left: 150px;
+        padding-top: 20px;
+    }
+    .main-page{
+        width: 100%;
+    }
+    .profile-button .mob{
+        display: none;
+    }
+    #mySearch{
+        display: none;
+    }
+    .main-page .navBar .search-button img{
+        margin-left: 180px;
+        padding-top: 12px;
+    }
+    #drops{
+        display: none;
+    }
+
+}
